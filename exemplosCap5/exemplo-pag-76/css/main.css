@@ -1,0 +1,23 @@
+div {
+	font-weight: bold;
+	height: 50px;
+	line-height: 25px;
+	margin-bottom: 10px;
+	padding: 5px;
+	text-align: center;
+	width: 220px;
+}
+.blue {
+	background-color: #4377FA; 
+	/* A cor do gradiente como fundo caso o browser não possua suporte*/
+	background-image: -webkit-linear-gradient(top, #4377FA, #0537B7);
+}
+.reverse-blue {
+	background-image: -webkit-linear-gradient(top, #0537B7, #4377FA);
+}
+.omg-pink {
+	background-image: -webkit-linear-gradient(top right, #FC0050, #FF79A3);
+}
+.stops {
+	background-image: -webkit-linear-gradient(top, #F5B951 48%, #F2A31C 56%);
+}
