@@ -1,0 +1,25 @@
+body { padding: 0; margin: 0; }
+.nav {
+	background-color: #B9522D;
+	height: 57px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+.nav li {
+	float: left;
+	font-weight: bold;
+	height: 57px;
+	line-height: 55px;
+	text-align: center;
+	width: 90px;
+}
+.nav a {
+	color: white;
+	text-decoration: none;
+}
+.nav .current {
+	background-color: #A64A28;
+	-webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+}
