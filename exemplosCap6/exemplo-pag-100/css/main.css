@@ -41,3 +41,14 @@ aside h3 {
   width: 940px;
   background-color: #E8E8E8;
 }
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
