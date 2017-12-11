@@ -1,0 +1,22 @@
+img {
+  float: left;
+  margin-right: 10px;
+}
+.posts {
+  width: 600px;
+}
+h1 {
+  float: left;
+  margin: 0 0 20px;
+}
+.timestamp {
+  background-color: #000;
+  color: #FFF;
+  float: right;
+  font-size: .9em;
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+article p {
+  clear: both;
+}
