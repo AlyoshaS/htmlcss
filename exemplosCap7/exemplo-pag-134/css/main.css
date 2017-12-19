@@ -1,0 +1,49 @@
+label {
+  display: none;
+}
+input {
+  font-weight: bold;
+  display: block;
+}
+button {
+  margin-top: 5px;
+}
+input {
+  border-radius: 3px 3px 0 0;
+  border: 1px solid  #999;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+  font-size: .8em;
+  padding: 5px;
+}
+input[type='password'] {
+  border-radius: 0 0 3px 3px;
+  border-top: none;
+}
+::-webkit-input-placeholder {
+  color: #666;
+  font-style: italic;
+  font-weight: normal;
+}
+::-moz-placeholder {
+  color: #666;
+  font-style: italic;
+  font-weight: normal;
+}
+:-ms-input-placeholder {
+  color: #666;
+  font-style: italic;
+  font-weight: normal;
+
+/*for Edge*/
+::-git ms-input-placeholder {
+  color: #666;
+  font-style: italic;
+  font-weight: normal;
+}
+.no-placeholder {
+  border-radius: 3px;
+  border-top: 1px solid  #999;
+}
+.no-placeholder label {
+  display: block;
+}
