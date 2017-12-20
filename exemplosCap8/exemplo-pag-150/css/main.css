@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 30%;
+  margin-top: 3%;
+}
+li {
+  float: left;
+  margin-left: 10px;
+  position: relative;
+  transition: transform .2s linear;
+}
+span {
+  color: #153755;
+  display: block;
+  font-weight: bold;
+  margin-top: 5px;
+  text-align: center;
+}
+li:nth-child(even) {
+  transform: rotate(5deg);
+}
+li:nth-child(odd) {
+  transform: rotate(-5deg);
+}
+li:hover {
+  transform: scale(1.3);
+  z-index: 1;
+}
+/* Exemplo página 154 - Skew:
+para aplicar o efeito, marcar como comentário da linha 22 à 27.
+
+li {
+transform: skew(10deg, 10deg);
+}*/
+
+/* Exemplo página 154/155 - Translate:
+para aplicar o efeito, marcar como comentário da linha 22 à 36.
+
+li:nth-child(even) {
+transform: translateY(10px);
+}
+li:nth-child(odd) {
+transform: translateY(-10px);
+}*/
