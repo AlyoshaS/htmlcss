@@ -1,0 +1,21 @@
+h1 {
+  animation: appear 2s linear;
+  color: #000;
+  font-size: 1.4em;
+  text-align: center;
+  transform: scale(1.2);
+  transform-origin: 50% 50%;
+}
+@keyframes appear {
+  from {
+    opacity: 0.5;
+    transform: scale(2);
+  }
+  70% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}

@@ -35,8 +35,8 @@ input {
   padding: 2px 5px;
 }
 .singup {
-  transform: rotateX(180deg);
+  transform: rotateY(180deg);
 }
 .card.flipped {
-  transform: rotateX(180deg);
+  transform: rotateY(180deg);
 }
